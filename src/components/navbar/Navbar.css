@@ -1,0 +1,12 @@
+.navbar{
+    background-color:#191919;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.navbar .movie-heading{
+    color:#b29600;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

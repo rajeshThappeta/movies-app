@@ -1,0 +1,48 @@
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgb(53, 53, 53) max(9.5rem, 27vh)
+  );
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+}
+
+.card img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  object-fit: contain;
+  height: max(10rem, 25vh);
+  max-height: max(10rem, 30vh);
+  aspect-ratio: 4/3;
+}
+
+.card .movie-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: goldenrod;
+  /* padding-bottom: 15px; */
+  cursor: pointer;
+}
+
+.card .watch-list-btn {
+ color:aliceblue;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  background: #000000c7;
+  /* box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+               */
+} 
+.card .watch-list-btn:hover {
+  background-color: #DAA520;
+  color: #395a57;
+}
+
+

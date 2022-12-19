@@ -1,0 +1,13 @@
+.search-btn{
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(192, 156, 10),rgb(72, 70, 70));
+    box-shadow: 1px 1px 3px grey;
+   
+    border: none;
+}
+
+.input-search{
+    padding: 5px 7px;
+    border-radius: 5px;
+    
+}
